@@ -1,5 +1,9 @@
 
-
+'''
+Player Can move forward in Queue by Paying Bribe. If there are more than 2 Bribes , then Print Chaotic. Else print Moves Done.
+ I/p : [1,2,3,5,4] 
+o/p : 1 Move
+'''
 def minBribes(q):
     # Write your code here
     moves = 0

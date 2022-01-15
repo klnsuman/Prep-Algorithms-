@@ -24,32 +24,7 @@ class LinkedList(Node):
             print(tmp.data)
             tmp = tmp.next
 
-    def merge_ll(self,first,second):
-
-        p = first.head
-        q = second.head
-
-        s = LinkedList()
-
-        if p.data<=q.data:
-            s = p
-            p = p.next
-        else:
-            s = q
-            q = q.next
-
-        new_node  = s
-
-        while p and q :
-            if p.data<=q.data:
-                s.next = p
-                p = p.next
-            else:
-                s.next = q
-                q = q.next
-        s.head = new_node
-        s.print_list()
-        return s
+  
 
     def merge_sorted_lst(self,ll1):
 

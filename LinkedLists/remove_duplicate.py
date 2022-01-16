@@ -24,7 +24,7 @@ class LinkedList(Node):
             print(tmp.data)
             tmp = tmp.next
 
-    /* Actual Code Below */        
+    /*** Actual Code Below ****/        
     
     def remove_duplicates(self):
 
